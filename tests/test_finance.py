@@ -1,4 +1,7 @@
-import unittest
+import unittest, os, tempfile, atexit
+_test_dir=tempfile.TemporaryDirectory()
+atexit.register(_test_dir.cleanup)
+os.environ.setdefault("PFI_DB", _test_dir.name+"/test.db")
 from main import projection
 class TestFinance(unittest.TestCase):
     def test_zero(self): self.assertEqual(projection(50000,2000,0,12),74000)

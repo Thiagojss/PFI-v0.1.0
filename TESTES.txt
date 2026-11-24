@@ -1,0 +1,26 @@
+test_annual (test_finance.TestFinance.test_annual) ... ok
+test_initial (test_finance.TestFinance.test_initial) ... ok
+test_negative (test_finance.TestFinance.test_negative) ... ok
+test_zero (test_finance.TestFinance.test_zero) ... ok
+test_existing (test_upgrade.UpgradeTest.test_existing) ... ok
+test_history (test_upgrade.UpgradeTest.test_history) ... ok
+test_installments (test_upgrade.UpgradeTest.test_installments) ... ok
+test_migration (test_upgrade.UpgradeTest.test_migration) ... ok
+test_reports (test_upgrade.UpgradeTest.test_reports) ... ok
+test_analysis (test_v1.V1Test.test_analysis) ... ok
+test_compare (test_v1.V1Test.test_compare) ... ok
+test_flow (test_v1.V1Test.test_flow) ... ok
+test_local_security (test_v1.V1Test.test_local_security) ... ok
+test_market_cache (test_v1.V1Test.test_market_cache) ... ok
+test_migration (test_v1.V1Test.test_migration) ... ok
+test_plan (test_v1.V1Test.test_plan) ... ok
+test_positions (test_v1.V1Test.test_positions) ... ok
+test_targets (test_v1.V1Test.test_targets) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.380s
+
+OK
+
+Sintaxe JS: aprovada (app.js, upgrade.js, v1.js).
+Teste de navegador bloqueado pela política do ambiente.
